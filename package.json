@@ -14,8 +14,7 @@
     "validator": "^13.11.0"
   },
   "scripts": {
-    "start": "nodemon --inspect server.js",
-    "dev": "nodemon --inspect server.js"
+    "start": "node index.js"
   },
   "name": "server",
   "version": "1.0.0",
