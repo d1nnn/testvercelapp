@@ -1,8 +1,7 @@
-const router = require('express').Router()
+const { Router } = require("express");
+const recipeRoute = require("./recipe.js");
 
+const router = Router();
+router.use("/api/recipe", recipeRoute);
 
-router.get("/haha", (req, res) => {
-  res.send('haha')
-})
-
-module.exports = router
+module.exports = router;
